@@ -24,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
-        android:text="Hats"
+        android:text="HATS"
         android:textColor="@android:color/white"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
