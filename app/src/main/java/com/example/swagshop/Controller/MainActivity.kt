@@ -1,7 +1,8 @@
-package com.example.swagshop
+package com.example.swagshop.Controller
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.swagshop.R
 
 class MainActivity : AppCompatActivity() {
 
