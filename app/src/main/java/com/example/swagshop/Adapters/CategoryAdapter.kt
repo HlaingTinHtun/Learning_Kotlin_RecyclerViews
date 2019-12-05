@@ -11,10 +11,7 @@ import com.example.swagshop.Model.Category
 import com.example.swagshop.R
 import kotlinx.android.synthetic.main.category_list_item.view.*
 
-class CategoryAdapter(context: Context, categories: List<Category>): BaseAdapter() {
-
-    val context = context
-    val categories = categories
+class CategoryAdapter(val context: Context, val categories: List<Category>): BaseAdapter() {
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
         val categoryView: View
@@ -31,7 +28,7 @@ class CategoryAdapter(context: Context, categories: List<Category>): BaseAdapter
             holder = convertView.tag as ViewHolder
             categoryView = convertView
         }
-        
+
         val category = categories[position]
 
         val resourceId = context.resources.getIdentifier(category.image, "drawable", context.packageName)
