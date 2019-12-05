@@ -15,6 +15,15 @@ object DataService {
         Product("Graphic Beanie","$18","hat1"),
         Product("Hat Black","$28","hat2"),
         Product("Hat White","$19","hat3"),
+        Product("Graphic Beanie","$18","hat1"),
+        Product("Hat Black","$28","hat2"),
+        Product("Hat White","$19","hat3"),
+        Product("Graphic Beanie","$18","hat1"),
+        Product("Hat Black","$28","hat2"),
+        Product("Hat White","$19","hat3"),
+        Product("Graphic Beanie","$18","hat1"),
+        Product("Hat Black","$28","hat2"),
+        Product("Hat White","$19","hat3"),
         Product("Hat Snapback","$12","hat3")
     )
 
@@ -22,10 +31,31 @@ object DataService {
         Product("Hoodie1","$10","hoodie1"),
         Product("Hoodie2","$11","hoodie2"),
         Product("Hoodie3","$20","hoodie3"),
+        Product("Hoodie1","$10","hoodie1"),
+        Product("Hoodie2","$11","hoodie2"),
+        Product("Hoodie3","$20","hoodie3"),
+        Product("Hoodie1","$10","hoodie1"),
+        Product("Hoodie2","$11","hoodie2"),
+        Product("Hoodie3","$20","hoodie3"),
+        Product("Hoodie1","$10","hoodie1"),
+        Product("Hoodie2","$11","hoodie2"),
+        Product("Hoodie3","$20","hoodie3"),
         Product("Hoodie4","$14","hoodie4")
     )
 
     val shirts = listOf(
+        Product("Shirt1","$11","shirt1"),
+        Product("Shirt2","$12","shirt2"),
+        Product("Shirt3","$13","shirt3"),
+        Product("Shirt4","$14","shirt4"),
+        Product("Shirt1","$11","shirt1"),
+        Product("Shirt2","$12","shirt2"),
+        Product("Shirt3","$13","shirt3"),
+        Product("Shirt4","$14","shirt4"),
+        Product("Shirt1","$11","shirt1"),
+        Product("Shirt2","$12","shirt2"),
+        Product("Shirt3","$13","shirt3"),
+        Product("Shirt4","$14","shirt4"),
         Product("Shirt1","$11","shirt1"),
         Product("Shirt2","$12","shirt2"),
         Product("Shirt3","$13","shirt3"),
